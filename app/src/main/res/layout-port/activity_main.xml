@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainstuff"
+    android:background="@color/background">
+
+
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="world of animals"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="261dp"
+        android:layout_height="103dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:src="@drawable/animalworld"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="10dp"
+        android:text="How much do you know about the worlds animals"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time left"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/bigContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/player1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nameViewA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="textMultiLine"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/setWonA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nameViewA"
+                    android:layout_centerInParent="true"
+                    android:text="Points"
+                    />
+
+                <TextView
+                    android:id="@+id/ScoreA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@id/setWonA"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentRight="true"/>
+
+
+                <Button
+                    android:id="@+id/button1a"
+                    style="@style/YourStyle"
+                    android:onClick="button1A"
+                    android:layout_alignParentLeft="true"
+                    android:text="Answer1"
+                    android:layout_below="@id/ScoreA"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:id="@+id/button2a"
+                    style="@style/YourStyle"
+                    android:onClick="button2A"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/ScoreA"
+                    android:text="Answer2!"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:id="@+id/button3a"
+                    style="@style/YourStyle"
+                    android:layout_below="@id/button1a"
+                    android:onClick="button3A"
+                    android:text="Answer3"
+                    android:textAllCaps="true" />
+                <Button
+                    android:id="@+id/button4a"
+                    style="@style/YourStyle"
+                    android:layout_below="@id/button2a"
+                    android:onClick="button4A"
+                    android:text="Answer4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@id/button3a"
+                    android:textAllCaps="true" />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="167dp"
+            android:layout_margin="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/player2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/nameViewB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="textMultiLine"
+                    android:layout_toEndOf="@+id/ScoreB" />
+
+                <TextView
+                    android:id="@+id/setWonB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/nameViewB"
+                    android:text="Points"
+                    />
+
+                <TextView
+                    android:id="@+id/ScoreB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@id/setWonB"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentLeft="true"/>
+
+                <Button
+                    android:id="@+id/button1b"
+                    style="@style/YourStyle"
+                    android:textAppearance="@style/YourStyle"
+                    android:onClick="button1B"
+                    android:layout_alignParentLeft="true"
+                    android:text="answer1"
+                    android:layout_below="@id/ScoreB"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:id="@+id/button2b"
+                    style="@style/YourStyle"
+                    android:onClick="button2B"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/ScoreB"
+                    android:text="Answer2"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:id="@+id/button3b"
+                    style="@style/YourStyle"
+                    android:layout_below="@id/button1b"
+                    android:onClick="button3B"
+                    android:text="Answer3"
+                    android:textAllCaps="true" />
+                <Button
+                    android:id="@+id/button4b"
+                    style="@style/YourStyle"
+                    android:layout_below="@id/button2b"
+                    android:onClick="button4B"
+                    android:text="Answer4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/button3b"
+                    android:textAllCaps="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/nextNext"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/nextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToNextQuestion"
+            android:text="next Question"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Result"
+            android:onClick="result"
+            android:layout_toLeftOf="@id/nextQuestion"/>
+        <Button
+            android:id="@+id/newGama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="resetGame"
+            android:text="New Game"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="Welcome to Antarems Animal Quiz"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Choose the number of players!"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <CheckBox android:id="@+id/redBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I dont like green"
+                android:onClick="redBackground"/>
+
+
+
+
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_pirates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 player"
+                    android:onClick="startGameOnePlayer"/>
+                <RadioButton android:id="@+id/testing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 players"
+                    android:onClick="startGameTwoPlayers"/>
+            </RadioGroup>
+
+
+
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:text="1 Player"-->
+                <!--android:onClick="startGameOnePlayer"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:id="@+id/testing"-->
+                <!--android:text="2 Players"-->
+                <!--android:onClick="startGameTwoPlayers"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"/>-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

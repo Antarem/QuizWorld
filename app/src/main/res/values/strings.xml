@@ -1,0 +1,250 @@
+<resources>
+    <string name="app_name">Quiz World</string>
+
+
+
+
+    //first question --- Elephant
+    <string name="nameOfAnimalQuestion1">What is the name of this animal?</string>
+    //4 answers
+    <string name="elephantAnswer1">Elephant</string>
+    <string name="elephantAnswer2">Rhino</string>
+    <string name="elephantAnswer3">Zebra</string>
+    <string name="elephantAnswer4">Antilope</string>
+
+    //second question --- Elephant
+    <string name="placeOfHabitatQuestion1">Elephants lives in...?</string>
+    //4 answers
+    <string name="elephantAnswer5">Ocean</string>
+    <string name="elephantAnswer6">Mountain</string>
+    <string name="elephantAnswer7">Desert</string>
+    <string name="elephantAnswer8">Plains</string>
+
+    //third question --- Elephant
+    <string name="animalFood1">Elephants mostly eat...?</string>
+    //4 answers
+    <string name="elephantAnswer9">Meat</string>
+    <string name="elephantAnswer10">Fish</string>
+    <string name="elephantAnswer11">Plants</string>
+    <string name="elephantAnswer12">Insects</string>
+    
+    //fourth question --- Elephant
+    <string name="featureofAnimal1">It is mostly known for?</string>
+    //4 answers
+    <string name="elephantAnswer13">Swimming</string>
+    <string name="elephantAnswer14">Nocturnality</string>
+    <string name="elephantAnswer15">Tusks</string>
+    <string name="elephantAnswer16">Fear of mice</string>
+
+    //fifth question --- Elephant
+    <string name="Ears">Why do elephants flap their ears?</string>
+    //4 answers
+    <string name="elephantAnswer17">cool down</string>
+    <string name="elephantAnswer18">To defend</string>
+    <string name="elephantAnswers19">To play</string>
+    <string name="elephantAnswers20">catch bugs</string>
+
+
+
+
+
+    //first question --- Zebra
+    <string name="nameOfAnimalQuestion2">What is the name of this animal?</string>
+    //4 answers
+    <string name="zebraAnswer1">Horse</string>
+    <string name="zebraAnswer2">Donkey</string>
+    <string name="zebraAnswer3">Zebra</string>
+    <string name="zebraAnswer4">StripeHorse</string>
+
+    //second question --- Zebra
+    <string name="placeOfHabitatQuestion2">Zebras lives in...?</string>
+    //4 answers
+    <string name="zebraAnswer5">Ocean</string>
+    <string name="zebraAnswer6">Savanna</string>
+    <string name="zebraAnswer7">Swamp</string>
+    <string name="zebraAnswer8">Plains</string>
+
+    //third question --- Zebra
+    <string name="animalFood2">Zebras mostly eat...?</string>
+    //4 answers
+    <string name="zebraAnswer9">Birds</string>
+    <string name="zebraAnswer10">Fish</string>
+    <string name="zebraAnswer11">Plants</string>
+    <string name="zebraAnswer12">Insects</string>
+
+    //fourth question --- Zebra
+    <string name="featureOfAnimal2">It is mostly known for?</string>
+    //4 answers
+    <string name="zebraAnswer13">Height</string>
+    <string name="zebraAnswer14">Speed</string>
+    <string name="zebraAnswer15">Stripes</string>
+    <string name="zebraAnswer16">Riding</string>
+
+    //fifth question -- Zebra
+    <string name="Taming">Why can Zebras not be domesticated?</string>
+    //4 answers
+    <string name="zebraAnswer17">No one tried</string>
+    <string name="zebraAnswer18">not family friendly</string>
+    <string name="zebraAnswer19">High breeding time</string>
+    <string name="zebraAnswer20">special diet</string>
+
+
+
+
+
+    //first question --- Buffalo
+    <string name="nameOfAnimalQuestion3">What is the name of this animal?</string>
+    //4 answers
+    <string name="buffaloAnswer1">Moose</string>
+    <string name="buffaloAnswer2">Taurus</string>
+    <string name="buffaloAnswer3">Buffalo</string>
+    <string name="buffaloAnswer4">Deer</string>
+
+    //second question --- Buffalo
+    <string name="placeOfHabitatQuestion3">Elephants lives in...?</string>
+    //4 answers
+    <string name="buffaloAnswer5">Ocean</string>
+    <string name="buffaloAnswer6">Mountains</string>
+    <string name="buffaloAnswer7">Caves</string>
+    <string name="buffaloAnswer8">Plains</string>
+
+    //third question --- Buffalo
+    <string name="animalFood3">Elephants mostly eat...?</string>
+    //4 answers
+    <string name="buffaloAnswer9">Meat</string>
+    <string name="buffaloAnswer10">Fish</string>
+    <string name="buffaloAnswer11">Plants</string>
+    <string name="buffaloAnswer12">Insects</string>
+
+    //fourth question --- Buffalo
+    <string name="featureOfAnimal3">It is mostly known for?</string>
+    //4 answers
+    <string name="buffaloAnswer13">Horns</string>
+    <string name="buffaloAnswer14">Size</string>
+    <string name="buffaloAnswer15">Stripes</string>
+    <string name="buffaloAnswer16">Riding</string>
+
+
+    //fifth question --- Buffalo
+    <string name="FurBuffalo">Which color can they also have?</string>
+    /4 answers
+    <string name="buffaloAnswer17">Light Brown</string>
+    <string name="buffaloAnswer18">Red</string>
+    <string name="buffaloAnswer19">dark purple</string>
+    <string name="buffaloAnswer20">gray</string>
+
+
+
+
+
+
+
+
+
+
+    <string-array name="Animals">
+        <item>Elephant</item>
+        <item>Zebra</item>
+        <item>Buffalo</item>
+    </string-array>
+
+    <string-array name="Questions">
+        <item>What is the name of this animal?</item>
+        <item>These animals live in...?</item>
+        <item>These animals mostly eat...?</item>
+        <item>It is mostly known for...?</item>
+        <item>Why do they sometimes flap their ears?</item>
+        <item>What is the name of this animal?</item>
+        <item>These animals live in...?</item>
+        <item>These animals mostly eat...?</item>
+        <item>It is mostly known for...?</item>
+        <item>Why are these animals not tamed?</item>
+        <item>What is the name of this animal?</item>
+        <item>These animals live in...?</item>
+        <item>These animals mostly eat...?</item>
+        <item>It is mostly known for...?</item>
+        <item>Which color can they also have?</item>
+    </string-array>
+
+    <string-array name="Answers">
+        <item>Elephant!</item>
+        <item>Rhino</item>
+        <item>Zebra</item>
+        <item>Antilope</item>
+
+        <item>Plains</item>
+        <item>Ocean</item>
+        <item>Mountain</item>
+        <item>Desert</item>
+
+        <item>Plants</item>
+        <item>Meat</item>
+        <item>Fish</item>
+        <item>Insects</item>
+
+        <item>Tusks</item>
+        <item>Nocturnality</item>
+        <item>swimnming</item>
+        <item>fear of mice</item>
+
+        <item>cooldown</item>
+        <item>defend</item>
+        <item>play</item>
+        <item>catch bugs</item>
+
+        <item>Zebra</item>
+        <item>Horse</item>
+        <item>Donkey</item>
+        <item>Stripehorse</item>
+
+        <item>Savannah</item>
+        <item>Ocean</item>
+        <item>Swamp</item>
+        <item>Plains</item>
+
+        <item>Plants</item>
+        <item>Birds</item>
+        <item>Fish</item>
+        <item>Insects</item>
+
+        <item>Stripes</item>
+        <item>Height</item>
+        <item>Speed</item>
+        <item>Riding</item>
+
+        <item>Not family friendly</item>
+        <item>Special Diet</item>
+        <item>High breeding time</item>
+        <item>noone tried</item>
+
+        <item>Buffalo</item>
+        <item>Moose</item>
+        <item>Taurus</item>
+        <item>Deer</item>
+
+        <item>Plains</item>
+        <item>Ocean</item>
+        <item>Mountains</item>
+        <item>Caves</item>
+
+        <item>Plants</item>
+        <item>Meat</item>
+        <item>Fish</item>
+        <item>Insects</item>
+
+        <item>Size</item>
+        <item>Horns</item>
+        <item>Stripes</item>
+        <item>Riding</item>
+
+        <item>Light Brown</item>
+        <item>Red</item>
+        <item>dark purple</item>
+        <item>gray</item>
+
+    </string-array>
+
+
+
+
+</resources>
